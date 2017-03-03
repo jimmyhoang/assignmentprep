@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFCB6AA1E68EC7800EA4411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFCB6A91E68EC7800EA4411 /* main.m */; };
+		FFFCB6B21E68ECD700EA4411 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFCB6B11E68ECD700EA4411 /* Car.m */; };
+		FFFCB6B51E68EE6C00EA4411 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFCB6B41E68EE6C00EA4411 /* Toyota.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFFCB6A41E68EC7800EA4411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFFCB6A61E68EC7800EA4411 /* ToyotasAreCarsToo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToyotasAreCarsToo; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFCB6A91E68EC7800EA4411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFFCB6B01E68ECD600EA4411 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		FFFCB6B11E68ECD700EA4411 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		FFFCB6B31E68EE6C00EA4411 /* Toyota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		FFFCB6B41E68EE6C00EA4411 /* Toyota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFCB6A31E68EC7800EA4411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFCB69D1E68EC7800EA4411 = {
+			isa = PBXGroup;
+			children = (
+				FFFCB6A81E68EC7800EA4411 /* ToyotasAreCarsToo */,
+				FFFCB6A71E68EC7800EA4411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFCB6A71E68EC7800EA4411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCB6A61E68EC7800EA4411 /* ToyotasAreCarsToo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFCB6A81E68EC7800EA4411 /* ToyotasAreCarsToo */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCB6A91E68EC7800EA4411 /* main.m */,
+				FFFCB6B01E68ECD600EA4411 /* Car.h */,
+				FFFCB6B11E68ECD700EA4411 /* Car.m */,
+				FFFCB6B31E68EE6C00EA4411 /* Toyota.h */,
+				FFFCB6B41E68EE6C00EA4411 /* Toyota.m */,
+			);
+			path = ToyotasAreCarsToo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFCB6A51E68EC7800EA4411 /* ToyotasAreCarsToo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFCB6AD1E68EC7800EA4411 /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */;
+			buildPhases = (
+				FFFCB6A21E68EC7800EA4411 /* Sources */,
+				FFFCB6A31E68EC7800EA4411 /* Frameworks */,
+				FFFCB6A41E68EC7800EA4411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyotasAreCarsToo;
+			productName = ToyotasAreCarsToo;
+			productReference = FFFCB6A61E68EC7800EA4411 /* ToyotasAreCarsToo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFCB69E1E68EC7800EA4411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jimmy Hoang";
+				TargetAttributes = {
+					FFFCB6A51E68EC7800EA4411 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFFCB6A11E68EC7800EA4411 /* Build configuration list for PBXProject "ToyotasAreCarsToo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFFCB69D1E68EC7800EA4411;
+			productRefGroup = FFFCB6A71E68EC7800EA4411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFCB6A51E68EC7800EA4411 /* ToyotasAreCarsToo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFCB6A21E68EC7800EA4411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFCB6B51E68EE6C00EA4411 /* Toyota.m in Sources */,
+				FFFCB6B21E68ECD700EA4411 /* Car.m in Sources */,
+				FFFCB6AA1E68EC7800EA4411 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFFCB6AB1E68EC7800EA4411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFFCB6AC1E68EC7800EA4411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFFCB6AE1E68EC7800EA4411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFFCB6AF1E68EC7800EA4411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFCB6A11E68EC7800EA4411 /* Build configuration list for PBXProject "ToyotasAreCarsToo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCB6AB1E68EC7800EA4411 /* Debug */,
+				FFFCB6AC1E68EC7800EA4411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFCB6AD1E68EC7800EA4411 /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCB6AE1E68EC7800EA4411 /* Debug */,
+				FFFCB6AF1E68EC7800EA4411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFCB69E1E68EC7800EA4411 /* Project object */;
+}
