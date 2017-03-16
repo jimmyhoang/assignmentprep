@@ -7,35 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NSNumber* largestNumber(NSArray*);
+#import "biggestNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *numbers = @[@3, @7, @6, @8];
-        
-        NSNumber *biggest = largestNumber(numbers);
+        NSMutableArray *numArray = [[NSMutableArray alloc] initWithObjects:@3,@7,@6,@8, nil];
+        biggestNumber *numbers = [[biggestNumber alloc] initWithArray:numArray];
+
+        NSNumber *biggest = [numbers largest:numbers.numbersArray];
         
         NSLog(@"The biggest number is: %@", biggest);
     }
     return 0;
-}
-
-NSNumber* largestNumber(NSArray *array)
-{
-    NSNumber *largest = 0;
-    unsigned long length = [array count];
-    NSNumber *number = 0;
-    
-    for (int i = 0; i < length; i++)
-    {
-        number = [array objectAtIndex:i];
-        
-        if (number > largest) {
-            largest = number;
-        }
-        
-    }
-    
-    return largest;
 }
