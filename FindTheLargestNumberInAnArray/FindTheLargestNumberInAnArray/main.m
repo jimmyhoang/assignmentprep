@@ -11,10 +11,10 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSMutableArray *numArray = [[NSMutableArray alloc] initWithObjects:@3,@7,@6,@8, nil];
+        NSArray *numArray = [[NSMutableArray alloc] initWithObjects:@3,@7,@6,@8, nil];
         biggestNumber *numbers = [[biggestNumber alloc] initWithArray:numArray];
 
-        NSNumber *biggest = [numbers largest:numbers.numbersArray];
+        NSNumber *biggest = [numbers largest];
         
         NSLog(@"The biggest number is: %@", biggest);
     }

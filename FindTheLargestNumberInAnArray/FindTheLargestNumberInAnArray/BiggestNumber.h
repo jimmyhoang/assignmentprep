@@ -10,9 +10,9 @@
 
 @interface biggestNumber : NSObject
 
-@property (nonatomic) NSMutableArray* numbersArray;
+@property (nonatomic) NSArray* numbersArray;
 
--(NSNumber*)largest:(NSMutableArray*) array;
--(id) initWithArray:(NSMutableArray*) a;
+-(NSNumber*)largest;
+-(id) initWithArray:(NSArray*) a;
 
 @end
